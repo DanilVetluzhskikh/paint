@@ -6,8 +6,6 @@ import '@styles/toolbar.scss'
 
 export const Toolbar: React.FC = () => (
   <div className='toolbar'>
-    {tools.map(item => (
-      <ToolElement key={item.name} {...item} />
-    ))}
+    {tools.map(item => <ToolElement key={item.name} {...item} />)}
   </div>
 )

@@ -4,9 +4,9 @@ import {
 } from '@components/common'
 import { Tool as ToolType } from '@interfaces/tool'
 import toolState from '@store/toolState'
+import canvasState from '@store/canvasState'
 
 import Brush from '@tools/Brush'
-import canvasState from '@store/canvasState'
 import Rect from '@tools/Rect'
 import Circle from '@tools/Circle'
 import Eraser from '@tools/Eraser'

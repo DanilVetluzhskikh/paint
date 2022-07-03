@@ -1,6 +1,6 @@
-import { Input } from '@components/common'
-import toolState from '@store/toolState'
 import React, { useState } from 'react'
+import toolState from '@store/toolState'
+import { Input } from '@components/common'
 import picker from '@assets/toolbar/picker.png'
 
 export const SettingBar: React.FC = () => {
