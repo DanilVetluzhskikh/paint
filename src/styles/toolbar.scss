@@ -1,0 +1,29 @@
+@import './variables.scss';
+
+.toolbar {
+    height: $toolbar-height;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    box-shadow: 0 4px 5px gray;
+    z-index: 2;
+    gap: 10px;
+    padding: 0 20px;
+    &.top {
+        top: $toolbar-height;
+        z-index: 1;
+    }
+
+    &-undo {
+        margin-left: auto;
+    }
+}
+
+.button {
+    outline: none;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
